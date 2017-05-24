@@ -1,0 +1,2 @@
+C:\git\XamarinTestApp\HelloWorld\HelloWorld\HelloWorld.UWP\HelloWorld.UWP.csproj;x86
+C:\git\XamarinTestApp\HelloWorld\HelloWorld\HelloWorld\HelloWorld.csproj;neutral

@@ -4,7 +4,6 @@
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.CALL_PHONE" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="HelloWorld.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="HelloWorld" android:theme="@style/MainTheme" android:name="md5fd8ed8046cea676d1ed0ce1fd728c386.MainActivity">

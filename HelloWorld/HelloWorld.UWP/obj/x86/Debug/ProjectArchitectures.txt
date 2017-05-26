@@ -1,2 +1,0 @@
-C:\src\HelloWorld\HelloWorld\HelloWorld.UWP\HelloWorld.UWP.csproj;x86
-C:\src\HelloWorld\HelloWorld\HelloWorld\HelloWorld.csproj;neutral

@@ -6,10 +6,19 @@ namespace HelloWorld
     public partial class MainPage : ContentPage
     {
         string translatedNumber;
+        private string versionNumber;
 
         public MainPage()
         {
             InitializeComponent();
+            versionText.Text = "Version: " + getVersionNumber();
+        }
+
+        private string getVersionNumber()
+        {
+            var appInfoService = DependencyService.Get<IAppInfoService>();
+            string version = appInfoService.AppVersion;//"1.2.3.4";
+            return version;
         }
 
         void OnTranslate(object sender, EventArgs e)
